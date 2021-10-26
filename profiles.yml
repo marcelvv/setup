@@ -1,0 +1,14 @@
+config:
+  partial_parse: true
+  use_colors: true
+  send_anonymous_usage_stats: false
+
+tradify-hq:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: [GCP project id]
+      dataset: [the name of your dbt dataset] # You can also use "schema" here
+      threads: [1 or more]

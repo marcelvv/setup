@@ -1,0 +1,39 @@
+{
+  "editor.fontFamily": "'Fira Code'",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "workbench.colorTheme": "Flatland Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.showTabs": false,
+  "extensions.autoUpdate": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "gitlens.codeLens.scopes": [
+    "document",
+    "containers"
+  ],
+  "diffEditor.ignoreTrimWhitespace": true,
+  "todohighlight.keywords": [
+    {
+      "text": "@TODO",
+      "color": "white",
+      "backgroundColor": "red"
+    }
+  ],
+  "files.associations": {
+    "*.sql": "jinja-sql"
+  },
+  "search.useIgnoreFiles": true,
+  "search.useGlobalIgnoreFiles": true
+}

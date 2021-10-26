@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+#mac os system files
+.macos
+#Git
+.git/
+# Sphinx documentation
+docs/_build/
+# VSCode
+.vscode/
