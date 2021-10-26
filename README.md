@@ -56,17 +56,6 @@ https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-ne
 Add the GPG key to your GitHub account
 https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
 https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
-
-### VSCode
-* To allow VSCode to visually display DBT-SQL as an understandable SQL statement bind jinja-sql to .sql files
-* Open your settings `File -> Preferences -> Settings -> Extensions -> Scroll down and find "Edit in settings.json"`
-* Paste into settings.json
-```
-    "files.associations": {
-        "*.sql": "jinja-sql"
-    },
-        "editor.tabSize": 2,
-```
 ## Brew
 ### Brew re-install
 ~~~bash
