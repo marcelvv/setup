@@ -1,0 +1,6 @@
+[
+  {
+    "key": "ctrl+cmd+p",
+    "command": "git.push"
+  }
+]
