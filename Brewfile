@@ -10,7 +10,6 @@ cask "docker"
 brew "python@3.9"
 brew "wget"
 brew "git-lfs"
-brew "docker-completion"
 brew "pip-completion"
 brew "zsh"
 brew "zsh-completions"
@@ -26,4 +25,3 @@ cask "kdiff3"
 cask "zoom"
 cask "notion"
 mas "Amphetamine", id: 937984704
-#test
