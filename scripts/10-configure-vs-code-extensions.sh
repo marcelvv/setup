@@ -1,6 +1,8 @@
 #!/usr/bin/env zsh
 echo "Configuring VS Code Extensions..."
 # extensions
+code --install-extension esbenp.prettier-vscode gerane.theme-flatlandmonokai --force
+code --install-extension pkief.material-icon-theme --force
 code --install-extension esbenp.prettier-vscode --force
 code --install-extension samuelcolvin.jinjahtml --force
 code --install-extension github.remotehub --force
