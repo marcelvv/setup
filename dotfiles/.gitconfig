@@ -10,7 +10,7 @@
 [diff]
 	tool = vscode
 [merge]
-	tool = kdiff3
+	tool = github
 [difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
 [alias]
