@@ -49,6 +49,7 @@
 * Remove from dock for everything else
 ## MAC OS Install Applications
 In terminal run -> xcode-select --install
+In terminal run -> softwareupdate --install-rosetta
 ## Manual Configuration
 
 ### Github Setup
