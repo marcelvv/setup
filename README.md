@@ -59,6 +59,7 @@ https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-ne
 Add the GPG key to your GitHub account
 https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
 https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
+x
 ## Brew
 ### Brew re-install
 ~~~bash
