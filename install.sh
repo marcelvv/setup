@@ -13,6 +13,7 @@ if ! command -v git > /dev/null 2>&1; then
 fi
 
 if [ ! -d ~/.setup ]; then
+  echo "Installing setup files from git"
   git clone https://github.com/marcelvv/setup.git ~/.setup
 fi
 
