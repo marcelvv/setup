@@ -10,7 +10,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 PATH=/opt/homebrew/sbin:$PATH
 PATH=/opt/homebrew/bin:$PATH
 
-PS1 = "%n %1~ %#"
+PS1="%n %1~ %#"
 
 export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
