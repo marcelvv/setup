@@ -7,8 +7,8 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 # /bin
 # /usr/sbin
 # /sbin
-PATH+=:/opt/homebrew/bin
-PATH+=:/opt/homebrew/sbin
+PATH=/opt/homebrew/sbin:$PATH
+PATH=/opt/homebrew/bin:$PATH
 
 export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
