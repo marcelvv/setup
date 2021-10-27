@@ -1,7 +1,6 @@
 #!/usr/bin/env zsh
-if [[ ! $(brew bundle check) ]]; then
-  cd ~/.setup
-  echo "Restoring homebrew packages from backup"
-  brew bundle install
-  echo "Restore complete"
-fi
+
+cd ~/.setup
+echo "Restoring homebrew packages"
+brew bundle install
+echo "Restore complete"
