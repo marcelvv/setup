@@ -1,4 +1,6 @@
-{
-  "key": "ctrl+cmd+p",
-  "command": "git.push"
-}
+[
+  {
+    "key": "ctrl+cmd+p",
+    "command": "git.push"
+  }
+]
