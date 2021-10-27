@@ -19,9 +19,7 @@ fi
 
 chmod +x ~/.setup/scripts/*
 
-echo "homebrew"
 for s in ~/.setup/scripts/0*.sh; do source $s; done
-echo "scripts"
 for s in ~/.setup/scripts/1*.sh; do source $s; done
 
 zsh
