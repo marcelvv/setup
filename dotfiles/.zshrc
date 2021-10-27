@@ -1,3 +1,25 @@
+export EDITOR="code --new-window --wait"
+
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+# /usr/local/bin
+# /usr/bin
+# /bin
+# /usr/sbin
+# /sbin
+PATH+=:/opt/homebrew/bin
+PATH+=:/opt/homebrew/sbin
+
+export ZSH=~/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+. `brew --prefix`/etc/profile.d/z.sh
+
+chmod +x ~/.laptop/scripts/*.sh
+
+for script in ~/.laptop/scripts/20-*.sh; do source $script; done
+for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
+
 autoload -U +X compinit && compinit
 autoload -U +X bashcompinit && bashcompinit
 
@@ -29,6 +51,4 @@ function cycle_logs() {
 alias dbt_refresh='dbt clean ; dbt deps ; dbt seed'
 alias open_dbt_docs='dbt docs generate && dbt docs serve'
 
-export EDITOR="code --wait"
-
-alias build_hb!="NO_CONTRACTS=true bundle exec middleman"
+# alias build_hb!="NO_CONTRACTS=true bundle exec middleman"

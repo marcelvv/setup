@@ -4,7 +4,7 @@
 - Update your system. To do that go: Apple menu () > About This Mac > Software Update.
 - Upgrade your Mac to the latest OS version
 - Add bluetooth devices (Mouse + Keyboard)
-- Create an iCloud account using your corporate email client
+- Create an iCloud account *using your corporate email client*
 - Complete login to the app store
 - Setup touch ID
 ### General
@@ -17,7 +17,7 @@
 * General -> Require password [Immediately] after sleep or screen save begins.
 * Firewall -> Turn on firewall.
 ### Accounts
-* Add an iCloud account and sync Calendar, Find my Mac, Contacts etc.
+* Add an iCloud account *using your corporate email client* and sync Calendar, Find my Mac, Contacts etc.
 ### Display
 * Adjust arrangement to suit second screen flow
 * Night Shift -> Sunset to Sunrise
