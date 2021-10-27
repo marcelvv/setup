@@ -40,13 +40,15 @@
 * Set Clock 24h
 ### Spotlight
 * Uncheck fonts, images, files etc.
+
+
 ## Keep in dock
 * VSCode
 * Slack
 * Chrome
 * Remove from dock for everything else
 ## MAC OS Install Applications
-
+In terminal run -> xcode-select --install
 ## Manual Configuration
 
 ### Github Setup
