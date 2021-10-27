@@ -1,5 +1,5 @@
 # Setup MacOS for Data
-
+Inspired by https://github.com/caseyWebb/laptop/blob/master/README.md
 ## Mac OS First Time Setup
 - Update your system. To do that go: Apple menu () > About This Mac > Software Update.
 - Upgrade your Mac to the latest OS version
@@ -51,7 +51,8 @@
 In terminal run -> xcode-select --install
 In terminal run -> softwareupdate --install-rosetta
 ## Manual Configuration
-
+Docker Desktop installs docker automatically
+Allow Chrome to access screen sharing in preferences
 ### Github Setup
 ## GPG Keys
 Create a github account
