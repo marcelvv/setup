@@ -25,4 +25,3 @@ cask "kdiff3"
 cask "zoom"
 cask "notion"
 mas "Amphetamine", id: 937984704
-# bananna
