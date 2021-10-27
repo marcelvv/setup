@@ -24,7 +24,7 @@ cask "slack"
 cask "spotify"
 cask "visual-studio-code"
 cask "google-cloud-sdk"
-# cask "kdiff3"
+# cask "kdiff3" --swapped for github desktop
 cask "zoom"
 cask "notion"
 mas "Amphetamine", id: 937984704
