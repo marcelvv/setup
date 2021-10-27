@@ -10,14 +10,14 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 PATH=/opt/homebrew/sbin:$PATH
 PATH=/opt/homebrew/bin:$PATH
 
+PS1 = "%n %1~ %#"
+
 export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-. `brew --prefix`/etc/profile.d/z.sh
-
 chmod +x ~/.setup/scripts/*.sh
 
-for script in ~/.setup/scripts/20-*.sh; do source $script; done
+# for script in ~/.setup/scripts/20-*.sh; do source $script; done
 for script in ~/.setup/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
 autoload -U +X compinit && compinit
