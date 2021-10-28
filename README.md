@@ -7,6 +7,9 @@ Inspired by https://github.com/caseyWebb/laptop/blob/master/README.md
 - Create an iCloud account *using your corporate email client*
 - Complete login to the app store
 - Setup touch ID
+### MAC OS Install Manual Applications
+In terminal run -> xcode-select --install
+If you have an M1 Macbook, in terminal run -> softwareupdate --install-rosetta
 ### General
 * Appearance -> Dark
 * Default web browser -> Chrome
@@ -41,18 +44,6 @@ Inspired by https://github.com/caseyWebb/laptop/blob/master/README.md
 ### Spotlight
 * Uncheck fonts, images, files etc.
 
-
-## Keep in dock
-* VSCode
-* Slack
-* Chrome
-* Remove from dock for everything else
-## MAC OS Install Applications
-In terminal run -> xcode-select --install
-In terminal run -> softwareupdate --install-rosetta
-## Manual Configuration
-Docker Desktop installs docker automatically
-Allow Chrome to access screen sharing in preferences
 ### Github Setup
 ## GPG Keys
 Create a github account
@@ -61,7 +52,11 @@ Add the GPG key to your GitHub account
 https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
 https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
 x
-## Brew
+
+### Manual Configuration steps
+Docker Desktop installs docker automatically
+Allow Chrome to access screen sharing in preferences
+## Brew Shortcuts
 ### Brew re-install
 ~~~bash
 brew reinstall $(brew list)
