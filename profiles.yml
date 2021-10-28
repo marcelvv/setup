@@ -10,7 +10,7 @@ tradify-hq:
       type: bigquery
       method: oauth
       project: tradify-214020
-      dataset: tradify-hq-[insert your username here] # You can also use "schema" here
+      dataset: tradify_hq_[insert your username here] # You can also use "schema" here
       threads: 4
       priority: interactive
       timeout_seconds: 300
